@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .company-name {
     display: flex;
     color: white;
