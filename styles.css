@@ -4,6 +4,10 @@
     justify-content: flex-end;
 }
 
+a {
+    text-decoration: none;
+}
+
 header {
     background-color: #333;
     padding: 20px;
@@ -26,4 +30,17 @@ header {
     background-color: #ddd;
     padding: 20px;
     margin: 20px;
+}
+
+.shop-now {
+    display: flex;
+    justify-content: center;
+}
+
+.shop-button {
+    background-color: #4CAF50;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
 }
