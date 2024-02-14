@@ -21,7 +21,7 @@ header {
 .navigation {
     display: flex;
     justify-content: space-around;
-    width: 100%;
+    width: 97.65%; /* if I make the width 100%, the navbar goes off the screen, so I set it to 97.65% to properly fit */
     background-color: #ddd;
     padding: 10px 20px 10px 20px;
 
@@ -65,4 +65,28 @@ footer {
 
 footer p {
     color: white;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ddd;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact-method {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ddd;
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
+}
+
+.contact-method a:hover {
+    color: coral;
 }
