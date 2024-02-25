@@ -21,7 +21,7 @@ header {
 .navigation {
     display: flex;
     justify-content: space-around;
-    width: 97.65%; /* if I make the width 100%, the navbar goes off the screen, so I set it to 97.65% to properly fit */
+    width: 100%;
     background-color: #ddd;
     padding: 10px 20px 10px 20px;
 
