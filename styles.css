@@ -34,6 +34,7 @@ header {
     background-color: #ddd;
     padding: 20px;
     margin: 20px;
+    border-radius: 20px;
 }
 
 .shop-now {
@@ -55,6 +56,7 @@ header {
     background-color: #ddd;
     padding: 20px;
     margin: 20px;
+    border-radius: 20px;
 }
 
 footer {
@@ -77,6 +79,12 @@ footer p {
     border-radius: 10px;
 }
 
+.contact-info h2 {
+    padding: 20px;
+    background-color: #4CAF50;
+    border-radius: 10px;
+}
+
 .contact-method {
     display: flex;
     flex-direction: column;
@@ -89,4 +97,73 @@ footer p {
 
 .contact-method a:hover {
     color: coral;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.product:hover {
+    background-color: lavender;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #ddd;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.product button {
+    background-color: #4CAF50;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+
+}
+
+@media (max-width: 600px) {
+    .product {
+        width: calc(100% - 10px);
+    }
+}
+
+@media (min-width: 600px) {
+    .product {
+        width: calc(35% - 10px);
+    }
+}
+
+@media (min-width: 1000px) {
+    .product {
+        width: calc(30% - 10px);
+    }
+}
+
+@media (max-width: 600px) {
+    header img {
+        width: 33%;
+    }
+    header {
+        width: 100%;
+    }
+    footer {
+        width: 100%;
+    }
+    .navigation {
+        width: 100%;
+    }
 }
